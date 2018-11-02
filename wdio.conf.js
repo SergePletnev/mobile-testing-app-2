@@ -1,5 +1,5 @@
 exports.config = {
-    
+
     //
     // ==================
     // Specify Test Files
@@ -129,7 +129,7 @@ exports.config = {
     // The only one supported by default is 'dot'
     // see also: http://webdriver.io/guide/reporters/dot.html
     reporters: ['dot'],
-    
+
     //
     // Options to be passed to Jasmine.
     jasmineNodeOpts: {
@@ -141,7 +141,7 @@ exports.config = {
         // or website depending on the result. For example, it is pretty handy to take a screenshot every time
         // an assertion fails.
     },
-    
+
     //
     // =====
     // Hooks
@@ -181,7 +181,7 @@ exports.config = {
      */
     // beforeCommand: function (commandName, args) {
     // },
-    
+
     /**
      * Hook that gets executed before the suite starts
      * @param {Object} suite suite details
@@ -218,7 +218,7 @@ exports.config = {
      */
     // afterSuite: function (suite) {
     // },
-    
+
     /**
      * Runs after a WebdriverIO command gets executed
      * @param {String} commandName hook command name

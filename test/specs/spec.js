@@ -12,7 +12,7 @@ describe('Proto mail tests', () => {
 
     beforeAll(() => {
         browser.timeouts('implicit', 12000);
-      });
+    });
 
     it('should sign in correctly', () => {
         signIn('jstalab', 'jstalabpas');
